@@ -20,13 +20,24 @@
     .carousel {
         margin: 0 30px;
     }
-    .tns-item {
-        img {
-            display: block;
-            margin: 0 auto;
-            width: 100%;
-        }
+    .advantages__descr {
+        font-size: 12px;
+        padding: 0 20px;
+        margin-top: 10px;
     }  
+    .title_left {
+        font-size: 25px;
+    }
+    .consultation__descr {
+        font-size: 17px;
+    }
+    .carousel__inner {
+        width: 493px!important;
+    }
+    .carousel__inner-img {
+        width: 500px;
+        height: 430px;
+    }
 }
 @media (max-width: 575px) {
     .container {
@@ -41,7 +52,7 @@
         font-size: 12px;
     }
     .button {
-        width: 107px;
+        width: 155px;
         height: 30px;
         font-size: 10px;
     }
@@ -67,9 +78,9 @@
     }
     .advantages__descr {
         margin-top: 14px;
-        font-size: 11px;
+        font-size: 10px;
         text-align: inherit;
-        padding: 0 10px;
+        padding: 0 6px;
     }
     .advantages__subtitle {
         margin-top: 13px;
@@ -88,6 +99,35 @@
             width: 100%;
         }
     }  
+    .title {
+        font-size: 19px!important;
+    }
+    .carousel__inner {
+        width: 365px!important;
+    }
+    .carousel__inner-img {
+        width: 400px;
+        height: 330px;
+    }
+    .catalog__tab {
+        font-size: 12px!important;
+    }
+    .catalog__content {
+        justify-content: center!important;
+    }
+    .catalog {
+        padding-bottom: 50px!important;
+    }
+    .reviews__img {
+        width: 120px!important;
+        height: 120px!important;
+    }
+    .reviews__descr {
+        font-size: 9px!important;
+    }
+    .reviews__item {
+        margin-top: 25px!important;
+    }
 }
 @media (max-width: 375px) {
   
@@ -101,7 +141,7 @@
         font-size: 10px;
     }
     .button {
-        width: 94px;
+        width: 143px;
         height: 30px;
         font-size: 8px;
     }
@@ -135,15 +175,59 @@
     img.advantages__icon {
         width: 45px;
     }
+    .advantages__subtitle {
+        font-size: 8px;
+    }
     .advantages__descr {
-        font-size: 9px;
+        font-size: 7px;
         padding: 0 5px;
+    }
+    .title {
+        font-size: 12px!important;
+    }
+    .consultation__descr {
+        font-size: 14px!important;
     }
     .promo {
         min-height: 550px;
     }
     .carousel {
         margin: 0 30px;
+    }
+    .carousel__inner {
+        width: 188px!important;
+    }
+    .carousel__inner-img {
+        width: 189px;
+        height: 160px;
+    }
+    .carousel {
+        padding: 50px 0;
+    }
+    .catalog__tab {
+        font-size: 8px !important;
+    }
+    .catalog-item__price {
+        font-size: 15px!important;
+    }
+    .reviews__img {
+        width: 75px !important;
+        height: 75px !important;
+    }
+    .reviews__subtitle {
+        font-size: 6px!important;
+    }
+    .reviews__count {
+        font-size: 7px!important;
+    }
+    .reviews__descr {
+        font-size: 7px!important;
+    }
+    .reviews__text {
+        margin-left: 26px!important;
+    }
+    .reviews hr {
+        margin-top: 25px!important;
     }
     .tns-item {
         img {
