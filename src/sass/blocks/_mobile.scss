@@ -255,5 +255,20 @@
             margin: 0 auto;
             width: 100%;
         }
-    }    
+    }   
+    .modal {
+        width: 274px!important;
+    }
+    .feed-form {
+        width: 197px!important;
+    }
+    .modal__subtitle {
+        font-size: 11px!important;
+    }
+    .modal__descr {
+        font-size: 10px!important;
+    }
+    .feed-form input {
+        font-size: 9px!important;
+    }
 }
